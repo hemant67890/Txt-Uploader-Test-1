@@ -71,7 +71,7 @@ async def main():
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_text(
-       f"𝐇𝐞𝐥𝐥𝐨 ❤️\n\n ▂▃▅▇█▓▒░ 🐦‍🔥 𝐓𝐇𝐄𝐑𝐌𝐎𝐏𝐎𝐋𝐈™🥷 🐦‍🔥 ░▒▓█▇▅▃▂ \n\n❈ I Am A Bot For Download Links From Your **.TXT** File And Then Upload That File Om Telegram So Basically If You Want To Use Me First Send Me ⟰ /txt Command And Then Follow Few Steps..", reply_markup=InlineKeyboardMarkup(
+       f"𝐇𝐞𝐥𝐥𝐨 ❤️\n\n ▂▃▅▇█▓▒░ 𝗝ᴏʜɴᴡɪᴄᴋ࿐™ ░▒▓█▇▅▃▂ \n\n❈ I Am A Bot For Download Links From Your **.TXT** File And Then Upload That File Om Telegram So Basically If You Want To Use Me First Send Me ⟰ /txt Command And Then Follow Few Steps..", reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton("✜ 𝐉𝐨𝐢𝐧 𝐔𝐩𝐃𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✜" ,url=f"https://t.me/+PM4PwsDbrBE2ZDc1") ],
@@ -124,7 +124,7 @@ async def account_login(bot: Client, m: Message):
     await input1.delete(True)
     
 
-    await editable.edit("∝ 𝐄𝐧𝐭𝐞𝐫 𝐄𝐞𝐬𝐨𝐥𝐮𝐭𝐢𝐨𝐧 🎬\n☞ 144,240,360,480,720,1080\nPlease Choose Quality")
+    await editable.edit("∝ 𝐄𝐧𝐭𝐞𝐫 𝐄𝐞𝐬𝐨𝐥𝐮𝐭𝐢𝐨𝐧 🎬\n☞ 144,240,360,480,720,1080\nPlease Choose Quality\n𝗝ᴏʜɴᴡɪᴄᴋ࿐™")
     input2: Message = await bot.listen(editable.chat.id)
     raw_text2 = input2.text
     await input2.delete(True)
@@ -209,8 +209,8 @@ async def account_login(bot: Client, m: Message):
                 cmd = f'yt-dlp -f "{ytf}" "{url}" -o "{name}.mp4"'
 
             try:  
-                cc = f'[ 🎥 ] Lᴇᴄ ɪᴅ. »  {str(count).zfill(3)}. \n**<pre>📲 𝗔ᴘᴘ 𝗡ᴀᴍᴇ** » **{MR}</pre>** \n🔰 Tɪᴛᴛʟᴇ » {𝗻𝗮𝗺𝗲𝟭}『𝐓ᴀʀᴀɪɴ™🥷🐦‍🔥』mkv\n\n**<pre>📲 𝐁ᴀᴛᴄʜ 𝐍ᴀᴍᴇ** »</pre>**\n\n**<pre>{raw_text0}</pre>** \n\n📛 𝗗ᴏᴡɴʟᴏᴀᴅᴇᴅ 𝗕ʏ » 『𝗝ᴏʜɴᴡɪᴄᴋ࿐™🥷🐦‍🔥』**'
-                cc1 = f'[ 📁 ] Pᴅғ ɪᴅ. »  {str(count).zfill(3)}. \n**<pre>📲 𝗔ᴘᴘ 𝗡ᴀᴍᴇ** » **{MR}</pre>** \n🔰 Tɪᴛᴛʟᴇ » {𝗻𝗮𝗺𝗲𝟭}『𝐓ᴀʀᴀɪɴ™🥷🐦‍🔥』pdf \n\n**<pre>📲 𝐁ᴀᴛᴄʜ 𝐍ᴀᴍᴇ** »</pre>**\n\n**<pre>{raw_text0}</pre>** \n\n📛 𝗗ᴏᴡɴʟᴏᴀᴅᴇᴅ 𝗕ʏ » 『𝗝ᴏʜɴᴡɪᴄᴋ࿐™🥷🐦‍🔥』**'
+                cc = f'[ 🎥 ] Lᴇᴄ ɪᴅ. »  {str(count).zfill(3)}. \n**<pre>📲 𝗔ᴘᴘ 𝗡ᴀᴍᴇ** » **{MR}</pre>** \n🔰 Tɪᴛᴛʟᴇ » {𝗻𝗮𝗺𝗲𝟭}mkv\n\n**<pre>📲 𝐁ᴀᴛᴄʜ 𝐍ᴀᴍᴇ** »**\n\n**{raw_text0}</pre>** \n\n📛 𝗗ᴏᴡɴʟᴏᴀᴅᴇᴅ 𝗕ʏ » 𝗝ᴏʜɴᴡɪᴄᴋ࿐™**'
+                cc1 = f'[ 📁 ] Pᴅғ ɪᴅ. »  {str(count).zfill(3)}. \n**<pre>📲 𝗔ᴘᴘ 𝗡ᴀᴍᴇ** » **{MR}</pre>** \n🔰 Tɪᴛᴛʟᴇ » {𝗻𝗮𝗺𝗲𝟭}pdf \n\n**<pre>📲 𝐁ᴀᴛᴄʜ 𝐍ᴀᴍᴇ** »**\n\n**{raw_text0}</pre>** \n\n📛 𝗗ᴏᴡɴʟᴏᴀᴅᴇᴅ 𝗕ʏ » 𝗝ᴏʜɴᴡɪᴄᴋ࿐™**'
                 if "drive" in url:
                     try:
                         ka = await helper.download(url, name)
@@ -225,18 +225,18 @@ async def account_login(bot: Client, m: Message):
                 
                 elif ".pdf" in url:
                     try:
-                        cmd = f'yt-dlp -o "🐦‍🔥 𝐓𝐇𝐄𝐑𝐌𝐎𝐏𝐎𝐋𝐈™🥷 🐦‍🔥{name}.pdf" "{url}"'
+                        cmd = f'yt-dlp -o "𝗝ᴏʜɴᴡɪᴄᴋ࿐™{name}.pdf" "{url}"'
                         download_cmd = f"{cmd} -R 25 --fragment-retries 25"
                         os.system(download_cmd)
-                        copy = await bot.send_document(chat_id=m.chat.id, document=f'🐦‍🔥 𝐓𝐇𝐄𝐑𝐌𝐎𝐏𝐎𝐋𝐈™🥷 🐦‍🔥{name}.pdf', caption=cc1)
+                        copy = await bot.send_document(chat_id=m.chat.id, document=f'𝗝ᴏʜɴᴡɪᴄᴋ࿐™{name}.pdf', caption=cc1)
                         count += 1
-                        os.remove(f'🐦‍🔥 𝐓𝐇𝐄𝐑𝐌𝐎𝐏𝐎𝐋𝐈™🥷 🐦‍🔥{name}.pdf')
+                        os.remove(f'𝗝ᴏʜɴᴡɪᴄᴋ࿐™{name}.pdf')
                     except FloodWait as e:
                         await m.reply_text(str(e))
                         time.sleep(e.x)
                         continue
                 else:
-                    Show = f"❊⟱ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ⟱❊ »\n\n📝 𝐍𝐚𝐦𝐞 » `{name}\n⌨ 𝐐𝐮𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `{url}`"
+                    Show = f"❊⟱ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ⟱❊ »\n\n📝 𝐍𝐚𝐦𝐞 » `{name}\n⌨ 𝐐𝐮𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `{url}`\n📊𝗧ᴏᴛᴀʟ 𝗟ɪɴᴋ𝘀 » {len(links)}.\n🎯𝗖ᴜʀʀᴇɴᴛʟʏ 𝗢ɴ » {str(count).zfill(3)}.\n𝗝ᴏʜɴᴡɪᴄᴋ࿐™"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
@@ -247,7 +247,7 @@ async def account_login(bot: Client, m: Message):
 
             except Exception as e:
                 await m.reply_text(
-                    f"⌘ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐈𝐧𝐭𝐞𝐫𝐮𝐩𝐭𝐞𝐝\n{str(e)}\n⌘ 𝐍𝐚𝐦𝐞 » {name}\n⌘ 𝐋𝐢𝐧𝐤 » `{url}`"
+                    f"⌘ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐈𝐧𝐭𝐞𝐫𝐮𝐩𝐭𝐞𝐝\n{str(e)}\n⌘ 𝐍𝐚𝐦𝐞 » {name}\n⌘ 𝐋𝐢𝐧𝐤 » `{url}`\n𝗝ᴏʜɴᴡɪᴄᴋ࿐™"
                 )
                 continue
 
